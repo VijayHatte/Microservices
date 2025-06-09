@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.tank1{
+    border-radius: 10px;
+    padding-top: 3px;
+    margin-bottom: 3px;
+    width: 25em;
+    margin: 100px auto;
+    height: 15em;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.f1{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.in1,.in2{
+    padding-left: 10px;
+    height: 30px;
+    margin: auto ;
+    margin-bottom: 10px;
+    max-width: 300px;
+    border: solid black 1.5px;
+    border-radius: 10px;
+}
+.bt{
+    margin-top: 20px;
+    border: solid black 1px;
+    height: 30px;
+    width: 6em;
+    padding-bottom: 30px;
+    color: white;
+    background-color: rgb(26, 121, 199);
+}
+.bt:hover{
+    background-color:rgb(51, 140, 212) ;
+}
